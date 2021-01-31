@@ -1,0 +1,51 @@
+body {
+  background: #1a4341;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.inner-circle {
+  width: 200px;
+  height: 200px;
+  background: #998235;
+  border-radius: 50%;
+}
+.square {
+  width: 250px;
+  height: 140px;
+  background: #1a4341;
+  position: absolute;
+  top: 55px;
+}
+
+.line_1,
+.line_2,
+.line_3 {
+  width: 250px;
+  height: 20px;
+  background: #f3ac3c;
+  position: relative;
+}
+
+.line_1 {
+  top: 20px;
+}
+
+.line_2 {
+  top: 40px;
+}
+
+.line_3 {
+  top: 60px;
+}
+
+.outer-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: transparent;
+  position: absolute;
+  overflow: hidden;
+}
