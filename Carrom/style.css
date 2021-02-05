@@ -1,0 +1,22 @@
+body {
+  background: #62374e;
+  margin: 0px;
+}
+.container {
+  background: #62374e;
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(2, 1fr);
+}
+.square {
+  width: 50px;
+  height: 50px;
+  background: #fdc57b;
+  justify-self: center;
+  align-self: center;
+}
+
+/* .square:nth-last-child(2n + 1) {
+  margin-left: 100px;
+} */

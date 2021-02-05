@@ -1,0 +1,36 @@
+body {
+  background-color: #6592cf;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.rectangle {
+  width: 300px;
+  height: 150px;
+  background: #243d83;
+}
+
+.outer-circle,
+.middle-circle,
+.inner-circle {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #6592cf;
+}
+
+.middle-circle {
+  width: 150px;
+  height: 150px;
+  background-color: #243d83;
+}
+
+.inner-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #eeb850;
+}
