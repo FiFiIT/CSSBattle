@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  background-color: #0b2429;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.leaf {
+  /* position: absolute;
+  left: 175px; */
+  width: 150px;
+  height: 150px;
+  background-color: #f3ac3c;
+  border-radius: 67% 0%;
+  box-shadow: -50px 0px #998235, -100px 0px #1a4341;
+}
