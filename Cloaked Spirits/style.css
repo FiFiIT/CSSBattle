@@ -1,0 +1,36 @@
+body {
+  background-color: #62306d;
+  font-size: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.finger {
+  width: 400px;
+  height: 300px;
+}
+.column {
+  width: 100px;
+  height: 150px;
+  background-color: #f7ec7d;
+  display: inline-block;
+  border-radius: 50px 50px 0% 0%;
+}
+
+.column:nth-child(2) {
+  height: 250px;
+}
+
+.circle {
+  background-color: #e38f66;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 20px solid #aa445f;
+}
+
+.column:nth-child(2) .circle {
+  background-color: #aa445f;
+  border-color: #e38f66;
+}
