@@ -1,0 +1,25 @@
+* {
+  background: #191210;
+  position: fixed;
+  font-size: 10px;
+}
+#c {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#84271c 35%, #191210 35%);
+  border: 2em solid #eca03d;
+  border-radius: 100%;
+  top: 8em;
+  left: 10em;
+}
+.half {
+  width: 6em;
+  height: 3em;
+  border-radius: 0 0 5em 5em;
+  bottom: 2em solid #eca03d;
+  border-top: 0px;
+}
+.l {
+  top: 15em;
+  left: 5em;
+}
